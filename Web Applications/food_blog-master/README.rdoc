@@ -1,0 +1,5 @@
+== README
+
+This is a personal project whose purpose is to help me better understand Ruby on Rails
+
+==Update Reame!

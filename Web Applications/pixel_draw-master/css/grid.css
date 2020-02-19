@@ -1,0 +1,51 @@
+@font-face{
+  font-family: arcadeFont;
+  src:url(ARCADECLASSIC.TTF);
+}
+body{
+  background-color: #1499cf;
+  height:auto;
+}
+
+h1 {
+  margin-top:1%;
+  text-align: center;
+  font-family:arcadeFont;
+  font-size: 70px;
+}
+button{
+  border-radius: 5px;
+  background-color: white;
+  color:#1499cf;
+  border:none;
+  margin:0px 25px;
+  padding:15px 32px;
+  font-size: 16px;
+}
+#container {
+  border-radius: 5px;
+  background-color: white;
+  margin:auto;
+  width:720px;
+  height:720px;
+  margin-top:1%;
+  border: 10px solid sienna;
+  box-shadow: 10px 10px 5px black;
+}
+
+.block{
+  margin:0;
+  float:left;
+  background-color: white;
+  width:30px;
+  height:30px;
+}
+
+.block:hover{
+  background-color: black;
+}
+
+#controlPanel{
+  text-align: center;
+  margin-top: 2em;
+}

@@ -1,0 +1,17 @@
+<% @posts.each do |post| %>
+    <div class = "container-fluid">
+    <div class = "post_wrapper">
+    <div class = "row">
+        <div class= "col-md-6 col-md-offset-3 col-xs-10 col-xs-offset-1 panel">
+        <h2 class ="title"> <%= link_to post.title, post %></h2>
+        <% if post.photo? %>
+            <%= image_tag post.photo.url(:medium), :class => "img-responsive" %>
+        <% else %>
+            Missing image <%= post.id %>
+        <% end %>
+                <h3 class = "date"> <%= post.created_at.strftime("%B, %d, %Y") %></h3>
+        </div>
+    </div>
+    </div>
+    </div>
+<% end %>

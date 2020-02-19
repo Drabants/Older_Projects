@@ -1,0 +1,84 @@
+#nav {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+}
+li {
+   float: right;
+}
+ li a{
+   font-size:15px;
+   color:#000;
+   display: block;
+   margin:5px;
+   padding: 14px 16px;
+   text-decoration: none;
+}
+a:hover{
+  text-decoration:underline;
+}
+#nav img{
+  width:20px;
+}
+#sign_in {
+  color: #fff;
+  font-weight: bold;
+  background: #4387fd;
+  border: 1px solid #4387fd;
+  border-radius: 3px;
+  padding: .7em 1em;
+}
+#sign_in:hover{
+  text-decoration: none;
+}
+
+#logo {
+  text-align: center;
+  margin-top: 250px;
+}
+
+#search_bar{
+  text-align: center;
+  display:block;
+}
+#input_wrapper{
+  width:400px;
+  margin:0 auto;
+  margin-bottom: 20px;
+  border: 0.5px solid rgba(0,0,0,0.05);
+  box-shadow: 2px 2px 11px -5px rgba(0, 0, 0, 0.75);
+}
+#input_wrapper:hover{
+  box-shadow: 3px 5px 11px -5px rgba(0, 0, 0, 0.75);
+  transition: box-shadow .2s;
+}
+#input_wrapper img{
+  width:auto;
+  height:30px;
+}
+#search_input{
+  float:left;
+  margin-left: 2px;
+  height:30px;
+  width:350px;
+  border:none;
+}
+#search_input:focus{
+  outline:none;
+}
+#search_buttons{
+  clear:both;
+}
+button{
+  margin:5px;
+  padding:10px;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+  color: #757575;
+}
+button:hover{
+  color:black;
+  transition: color 2s;
+}

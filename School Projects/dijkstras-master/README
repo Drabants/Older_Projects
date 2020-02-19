@@ -1,0 +1,18 @@
+Shelby Drabant
+
+This program takes from the arguement line two files 'astrograph' and 'flights'. The astrograph file is formated with a 
+leading planet, followed by its connections and times between connections. To read a new leading planet, you must input 
+'NEXT 0' or the program will terminate due to incorrect formatting. The file must finish with 'END' or it will also terminate.
+From this file it will construct an astrograph object to be used later for comparison when establishing valid ship routes 
+from the next file. The second file passed is called 'flights' and will be used to construct a graph of all flights throughout
+the galaxy. 'flights' format is as follows| shipname (followed by a series of) departure planet departure time destination planet
+and arrival time.When moving to the next ship, the keyword 'NEXT' must be used. The end of the file is finished with the
+keywords 'NEXT' and 'END'. If the formatting is incorrect or any of the routes are invalid, the program will terminate.
+Once the files have been read and verified, the program with then run Dijkstra's algorithm in order to find the longest
+shortest route possible with the given data. The output of my 'flights' file is as follows.
+
+BespinExpress : Leaves Dagobah at 31 Arrives at Bespin at 58
+BespinExpress : Leaves Bespin at 400 Arrives at Corellia at 406
+Didanic : Leaves Corellia at 1104 Arrives at Bakura at 1156
+
+To construct and run please use bash BUILD.sh and bash RUN.sh

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BinaryBites</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<div class="brand">
+  <%= image_tag("B_B.jpg")%>
+  </br>
+  Binary Bites
+</div>
+<nav class="navbar navbar" role="navigation">
+      <div class="container-fluid">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+    </button>
+    <div class="collapse navbar-collapse" id="myNavbar">
+    <ul class="nav navbar-nav">
+      <li>
+        <%= link_to "Home", root_path %>
+      </li>
+      <li>
+        <%= link_to "About", about_path %>
+      </li>
+      <li>
+        <a href="https://github.com/Drabants?tab=overview&from=2017-01-01&to=2017-01-09">Github</a>
+      </li>
+    <% if !user_signed_in? %>
+    		<li><%= link_to 'Sign Up', new_user_registration_path %></li>
+				<li><%= link_to 'Sign In', new_user_session_path %></li>
+		<% else %>
+		    <li><%= link_to 'New Post', new_post_path %></li>
+		    <li><%= link_to('Logout', destroy_user_session_path, :method => :delete)%></li>
+    <% end%>
+        </ul>
+    </div>
+      </div>
+</nav>
+
+<%= yield %>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+<footer>
+  <!-- Quantcast Tag -->
+<script type="text/javascript">
+var _qevents = _qevents || [];
+
+(function() {
+var elem = document.createElement('script');
+elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+elem.async = true;
+elem.type = "text/javascript";
+var scpt = document.getElementsByTagName('script')[0];
+scpt.parentNode.insertBefore(elem, scpt);
+})();
+
+_qevents.push({
+qacct:"p-GX-Z9zNjY-YJK"
+});
+</script>
+
+<noscript>
+<div style="display:none;">
+<img src="//pixel.quantserve.com/pixel/p-GX-Z9zNjY-YJK.gif" border="0" height="1" width="1" alt="Quantcast"/>
+</div>
+</noscript>
+<!-- End Quantcast tag -->
+</footer>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="main.css">
+    <meta charset="utf-8">
+    <title #id=title>Another Application Form</title>
+  </head>
+  <body>
+    <h1 id="title">Another Application Form</h1>
+    <div id="form-body">
+    <p id="description">
+      You've made a wrong turn and have ran into another online application form. Please fill it out immediately to remedy your mistake.
+    </p>
+    <form id="survey-form">
+      <div class="form-block">
+        <label class="form-label" for="name" id="name-label">
+        Name:
+        </label>
+        <div class="form-input">
+        <input class="form-field" id="name" type="text" placeholder="Enter your name here" required/>
+      </div>
+      </div>
+      <div class="form-block">
+        <label class="form-label" for="email" id="email-label">
+        Email:
+        </label>
+                <div class="form-input">
+        <input class="form-field" id="email" type="email" placeholder="Enter your email here" required/>
+      </div>
+      </div>
+      <div class="form-block">
+        <label class="form-label" id="number-label">
+        Age:
+      </label>
+        <div class="form-input">
+        <input class="form-field" id="number" type="number" min="0" max="200" placeholder="Enter your age here" required/>
+      </div>
+      </div>
+      <div class="form-block">
+        <label class="form-label" for="dropdown">Which best describes you?</label>
+                <div class="form-input">
+        <select name="role" id="dropdown">
+          <option value="robot">Robot</option>
+          <option value="capitalist">Venture Capitalist</option>
+          <option value="bodybuilder">Bodybuilder</option>
+          <option value="attorney">Tax Attorney</option>
+        </select>
+      </div>
+      </div>
+      <div class="form-block">
+        <label class="form-label" for="rating">How likely are you to click one of these buttons?</label>
+        <div class="form-input">
+        <ul style="list-style-type:none;">
+            <li>
+              <input type="radio" name="radio-buttons" value="1">
+              <label for="likely">likely</label>
+            </li>
+            <li>
+              <input type="radio" name="radio-buttons" value="2">
+              <label for="unlikely">unlikely</label>
+            </li>
+            <li>
+              <input type="radio" name="radio-buttons" value="3">
+              <label for="unknown">unknown</label>
+            </li>
+        </ul>
+      </div>
+      </div>
+      <div class="form-block">
+        <label class="form-label" for="misc-checks">What foods would you eat?</label>
+        <div class="form-input">
+        <ul style="list-style-type:none;">
+            <li>
+              <input type="checkbox" name="food1" value="bisquit">
+              <label for="bisquit">Bisquit</label>
+
+            </li>
+            <li>
+              <input type="checkbox" name="food2" value="ham">
+              <label for="ham">Ham</label>
+            </li>
+            <li>
+              <input type="checkbox" name="food3" value="soap">
+              <label for="soap">Soap</label>
+            </li>
+        </ul>
+      </div>
+      </div>
+      <div class="form-block">
+        <div class="form-input">
+        <label class="form-label" for="comments">Anything on Your Mind?</label>
+        <textarea type="textarea" name="comments" placeholder="Seriously. Tell me anything!"></textarea>
+      </div>
+      </div>
+      <button id="submit" type="submit">Submit</button>
+    </form>
+  </div>
+  </body>
+</html>

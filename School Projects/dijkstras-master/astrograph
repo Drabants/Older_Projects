@@ -1,0 +1,31 @@
+Alderaan Bespin Corellia Coruscant Dagobah Dantooine Endor Gamorr Hoth Sullust Tatooine Yavin Brentaal Chandrila Corellia Corulag Coruscant Esseles Rhinnal Ralltiir Kashyyyk Myrkr Wayland YagaMinor Bakura CorporateSector Coruscant HapesCluster Kessel MonCalamari END
+Alderaan Bespin 8 Corellia 6 Coruscant 16 Dagobah 30 Dantooine 13 Endor 18 Gamorr 180 Hoth 27 Sullust 213 Tatooine 7 Yavin 5 NEXT 0
+Bespin Corellia 6 Coruscant 158 Dagobah 27 Dantooine 22 Endor 32 Gamorr 75 Hoth 4 Sullust 268 Tatooine 16 Yavin 11 NEXT 0 
+Corellia Coruscant 4 Dagobah 31 Dantooine 12 Endor 17 Gamorr 254 Hoth 21 Sullust 19 Tatooine 4 Yavin 15 NEXT 0
+Coruscant Dagobah 302 Dantooine 19 Endor 156 Gamorr 387 Hoth 81 Sullust 194 Tatooine 542 Yavin 128 NEXT 0
+Dagobah Dantooine 32 Endor 97 Gamorr 656 Hoth 89 Sullust 78 Tatooine 28 Yavin 314 NEXT 0
+Dantooine Endor 21 Gamorr 86 Hoth 28 Sullust 126 Tatooine 20 Yavin 12 NEXT 0
+Endor Gamorr 341 Hoth 60 Sullust 19 Tatooine 24 Yavin 10 NEXT 0
+Gamorr Hoth 346 Sullust 74 Tatooine 40 Yavin 55 NEXT 0
+Hoth Sullust 22 Tatooine 56 Yavin 39 NEXT 0
+Sullust Tatooine 38 Yavin 17 NEXT 0
+Tatooine Yavin 15 NEXT 0
+Brentaal Chandrila 1 Corellia 3 Corulag 2 Coruscant 7 Esseles 2 Rhinnal 5 Ralltiir 7 NEXT 0
+Chandrila Corellia 2 Corulag 1 Coruscant 5 Esseles 3 Rhinnal 2 Ralltiir 4 NEXT 0
+Corellia Corulag 1 Coruscant 4 Esseles 4 Rhinnal 7 Ralltiir 9 NEXT 0
+Corulag Coruscant 6 Esseles 4 Rhinnal 8 Ralltiir 11 NEXT 0
+Coruscant Esseles 8 Rhinnal 10 Ralltiir 12 NEXT 0
+Esseles Rhinnal 2 Ralltiir 4 NEXT 0
+Rhinnal Ralltiir 1 NEXT 0
+Corellia Coruscant 4 Kashyyyk 36 Myrkr 81 Wayland 99 YagaMinor 12 NEXT 0
+Coruscant Kashyyyk 43 Myrkr 108 Wayland 58 YagaMinor 15 NEXT 0
+Kashyyyk Myrkr 55 Wayland 54 YagaMinor 53 NEXT 0
+Myrkr Wayland 21 YagaMinor 55 NEXT 0
+Wayland YagaMinor 30 NEXT 0
+Bakura Corellia 52 CorporateSector 60 Coruscant 77 HapesCluster 11 Kessel 27 MonCalamari 22 NEXT 0
+Corellia CorporateSector 9 Coruscant 4 HapesCluster 21 Kessel 10 MonCalamari 6 NEXT 0
+CorporateSector Coruscant 15 HapesCluster 7 Kessel 9 MonCalamari 24 NEXT 0
+Coruscant HapesCluster 39 Kessel 27 MonCalamari 13 NEXT 0
+HapesCluster Kessel 12 MonCalamari 18 NEXT 0
+Kessel MonCalamari 9 NEXT 0
+END

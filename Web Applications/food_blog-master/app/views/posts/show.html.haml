@@ -1,0 +1,36 @@
+
+.main_content
+	.row
+		.col-md-3
+		.col-md-6
+			= image_tag @post.photo.url(:medium), class: "img-responsive thumbnail"
+	#post_top.row
+		.row
+		.col-md-6.col-md-offset-3.panel.col-xs-10.col-xs-offset-1
+			#recipe_info
+				%h1= @post.title
+				%p.body= @post.body
+		.col-md-3
+				
+
+	.row
+		.col-md-1
+		.col-md-4.panel.col-xs-10.col-xs-offset-1
+			#ingredients
+				%h2 Ingredients
+				%ul
+					- @post.ingredients.each do |ingredient|
+						%li= ingredient.name\
+		.col-md-2
+		.col-md-4.panel.col-xs-10.col-xs-offset-1
+			#directions
+				%h2 Directions
+				%ul
+					- @post.directions.each do |direction|
+						%li= direction.step
+	.row
+		.col-md-12
+			= link_to "Back", root_path, class: "btn btn-default"
+			- if user_signed_in?
+				= link_to "Edit", edit_post_path, class: "btn btn-default"
+				= link_to "Delete", post_path, method: :delete, data: {confirm: "Are you sure?" }, class: "btn btn-default"
