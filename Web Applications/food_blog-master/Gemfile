@@ -20,7 +20,7 @@ gem "mini_magick"
 gem "cocoon"
 gem 'haml', '~>4.0.5'
 gem 'simple_form' , '~>3.0.2'
-gem 'bootstrap-sass', '~> 3.2.0.2'
+gem 'bootstrap-sass', '~> 3.4.1'
 
 gem 'aws-sdk', '~> 1.36.1'
 gem 'fog'
